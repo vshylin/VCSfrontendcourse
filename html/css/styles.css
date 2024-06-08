@@ -1,0 +1,54 @@
+html {
+    padding: 0px;
+    margin: 0px;
+    border: 10px;
+    background-color: rgb(249, 243, 198);
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+:root {
+    --frame-color: #6c1313;
+    --textframe-color: #2b0d51;
+}
+
+.logo {
+    border-radius: 50%;
+    width: 200px;
+    height: 200px;
+    object-fit: cover;
+    border: 5px solid var(--frame-color);
+    padding: 5px;
+}
+
+.pictures {
+    border-radius: 10%;
+    width: 400px;
+    height: 400px;
+    object-fit: cover;
+    border: 5px solid var(--frame-color);
+    padding: 5px;
+}
+
+.white {
+    color: white;
+}
+
+.red-royal {
+    color: var(--frame-color);
+}
+
+.frame {
+    border: 4px rgb(16, 89, 161)"
+}
+
+/* SCREEN FRAME styles.css */
+.screen-frame {
+    width: 800px; /* Adjust width as needed */
+    height: 600px; /* Adjust height as needed */
+    border: 5px solid #000; /* Border thickness and color */
+    border-radius: 20px; /* Border radius for rounded corners */
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.5); /* Optional: Box shadow for depth */
+    background-color: #fff; /* Background color for the screen */
+    position: relative;
+    padding: 20px; /* Add padding to keep content away from border */
+}
