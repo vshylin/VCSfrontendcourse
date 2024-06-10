@@ -52,3 +52,27 @@ html {
     position: relative;
     padding: 20px; /* Add padding to keep content away from border */
 }
+
+form {
+    max-width: 400px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 50px;
+    border-color: #000;
+    box-shadow: 1px 0px 0px ;
+}
+
+form label {
+    display: block;
+    margin-bottom: 10px;
+}
+
+.transparent-knight {
+    background-image: url("../html/imgs/transparent-knight.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: left;
+    width: 900px;
+    height: 500px;
+}
