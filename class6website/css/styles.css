@@ -1,0 +1,25 @@
+body {
+    height: 100vh;
+}
+
+/* show borders for debugging*/
+.b {
+    border: 1px solid gray;
+}
+
+.logo {
+    width: 150px; 
+    margin: 0px;
+    padding: 0px;
+}
+
+.header-container{
+    height: 150px;
+    display: flex;
+    justify-content: space-between;
+    align-items:end
+}
+
+.small-padding{
+    padding: 5px;
+}
