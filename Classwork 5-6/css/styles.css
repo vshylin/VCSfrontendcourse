@@ -1,0 +1,78 @@
+body {
+    margin: 10px;
+    font-family: Arial, sans-serif;
+}
+
+/* HEADER */
+/* header padding 10px/20px */
+
+.header {
+    display: flex;
+    align-items:center;
+    justify-content:space-between;
+    padding: 10px 20px;
+    background-color: #f8f8f8;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+}
+
+.header-logo {
+    width: 60px;
+    height: 60px;
+}
+
+.header-text {
+    flex-grow: 1;
+    text-align: center;
+    margin: 0;
+    font-size: 35px;
+}
+
+
+.header-button {
+    padding: 10px 20px;
+    background-color: #019408;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+    margin-right: 5px;
+}
+
+.header-button:hover {
+    background-color: #006513;
+}
+
+/* */
+
+.list-container {
+    border: 5px solid #ccc; /* Gray border */
+    background-color: #f0f0f0; /* Light gray background */
+    padding: 10px; /* Padding inside the container */
+    width: fit-content; /* Adjust width to content */
+}
+
+.styled-ordered-list {
+    margin: 10px;
+    padding: 0;
+    list-style: none;
+}
+
+.styled-ordered-list li {
+    padding: 5px;
+    margin-bottom: 5px;
+}
+
+.styled-ordered-list li:nth-child(even) {
+    background-color: lightgrey;
+}
+
+/* .styled-unordered-list li {
+    padding: 5px;
+} */
+
+
+
+
+/* FOOTER */
+
