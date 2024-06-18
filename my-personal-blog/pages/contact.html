@@ -1,0 +1,93 @@
+DOCTYPE html> 
+<html lang="en"> 
+    <head> 
+        <meta charset="UTF-8" /> 
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" /> 
+        <meta name="description" content="Gilberto Santos is a software engineer and web developer based in New York City" />
+        <title>Gilberto Santos</title> 
+        <link rel="stylesheet" href="../css/styles.css" /> 
+    </head> 
+    <body class="b"> 
+        <header> 
+            <div class="header-container b"> 
+                <div class="logo">logo</div> 
+                <div class="websitename">Gilberto Santos</div> 
+                <div class="header-buttons"> 
+                    <button>Resume</button> 
+                    <button>Contact</button> 
+                </div> 
+            </div> 
+            <div class="nav-container b"> 
+                <nav> 
+                    <a href="#about" onclick="loadContent('about')" >About</a>
+                     <a href="#projects" onclick="loadContent('projects')">Projects</a> 
+                     <a href="pages/contact.html">Contact</a> 
+                    </ul> 
+                </nav> 
+            </div> 
+        </header> 
+        <main class="main-container b" > 
+            <div class="main-content-left" id="main-content"> 
+                <form id="contact-form" action="index.html" autocomplete="off" method="post"> 
+                    <fieldset> 
+                        <legend>Contact information</legend> 
+                        <label for="name"> <span>Name</span> 
+                            <input id="name" name="name" type="text" /> 
+                            <p id="name-error" style="color: red"></p>
+                         </label>
+                         <label for="age"> 
+                            <span>Age</span>
+                             <input id="age" name="age" min="0" max="120" type="number" your-own-att /> </label> 
+                             <label for="dob"> 
+                                <span>Date of birth</span> 
+                                <input id="dob" name="dob" your-own-att type="date" disabled /> </label> 
+                                <label for="email"> 
+                                    <span>Email</span> 
+                                    <input id="email" your-own-att name="email" type="email" /> <p id="email-error" style="color: red"></p> </label> 
+                                    <label for="country"> 
+                                        <span>Country</span> 
+                                        <select your-own-att id="country" name="country" > 
+                                            <optgroup label="North America"> 
+                                                <option value="us">United States</option> 
+                                                <option value="ca">Canada</option> 
+                                                <option value="mx">Mexico</option> </optgroup> 
+                                                <optgroup label="Europe"> 
+                                                    <option selected value="uk">UK</option> 
+                                                    <option selected value="ie">Ireland</option> 
+                                                </optgroup> 
+                                            </select> 
+                                        </label> 
+                                        <label> 
+                                            <span>Describe</span> 
+                                            <textarea your-own-att name="description"></textarea> 
+                                        </label> 
+                                    </fieldset> 
+                                    <br /> 
+                                    <fieldset> 
+                                        <legend>Preferences</legend> 
+                                        <label> 
+                                            <input type="checkbox" name="newsletter" /> Subscribe to our newsletter </label> 
+                                            <label> 
+                                                <input type="checkbox" name="offers" /> Receive special offers </label> 
+                                            </fieldset> 
+                                            <button type="submit">Submit</button> 
+                                        </form> <div class="main-content-right"> 
+                                            <aside> 
+                                                <ul> 
+                                                    <li>
+                                                        <span>Image</span>
+                                                    </li> 
+                                                    <li>
+                                                        <span><a href="#">Link</a></span>
+                                                    </li> 
+                                                </ul> 
+                                            </aside> 
+                                        </div> 
+                                    </main> 
+                                    <footer class="footer-container b"> <div class="facebook">Facebook</div> <div class="opentimes">Open Times</div> 
+                                    </footer> 
+                                </body> 
+        <script src="../js/script2.js">
+
+        </script> 
+<script src="../js/validation.js"></script> </html>
