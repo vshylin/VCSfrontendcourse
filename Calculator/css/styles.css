@@ -6,13 +6,20 @@ body {
   margin: 0;
   background-color: #f0f0f0;
   font-family: Arial, sans-serif;
+  
 }
+
+/* TITLE STYLING */
 
 .title {
   text-align: center;
   margin-bottom: 20px;
   width: 100%;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  font-size: 50px;
 }
+
+/* CONTAINER */
 
 .main-container {
 
@@ -24,30 +31,32 @@ body {
   border-radius:20px;
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
   width: 100%;
-  max-width: 800px;
+  max-width: 1000px;
   
   
 
 }
 
-
+/* INPUT LINE*/
 .input-line {
   display: flex;
   justify-content: center;
   align-items: center;
   flex: 1;
   
-  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-  width: 500px;
-  height: 40px;
-  margin: auto;
-  padding: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5);
+  width: calc(90% - 20px);
+  /* height: 40px; */
+  padding: 30px;
+  margin: 20px auto 20px auto;
+  border-radius: 10px;
+  border: 1px solid black;
   
   font-size: 25px;
   font-weight: bold;
   background-color: #9d9d9d;
   color: #ededed;
-
+  
   
 }
 
@@ -62,7 +71,7 @@ body {
   text-align: center;
 }
 
-
+/* BUTTON LINE*/
 .button-line {
   display: flex;
   justify-content:space-evenly;
@@ -71,19 +80,57 @@ body {
 }
 
 .button-line button {
-
-  flex: 1;
+  flex: 2;
   margin: 0 5px;
   padding: 20px 30px;
   font-size: 20px;
-  background-color: #ededed;
   color: rgb(0, 0, 0);
-  border: none;
+  border: 1px solid black;
   border-radius: 4px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5);
   cursor: pointer;
+  font-weight: bold;
+  font-size: 35px;
+}
+
+
+
+/* White, Yellow, Green, Red BUTTONS */
+
+.num-button {
+ background-color: #ededed;
+ transition: background-color 0.3s;
+}
+
+.num-button:hover {
+  background-color: #9d9d9d;
+}
+
+.op-button {
+  background-color: rgb(255, 233, 35);
   transition: background-color 0.3s;
 }
 
-.button-line button:hover {
-  background-color: #9d9d9d;
+.op-button:hover {
+  background-color: #c7b82a;
 }
+
+.red-button {
+  background-color: #e43c3c;
+  color: white;
+}
+
+.red-button:hover {
+  background-color: #b82e2e;
+}
+
+.green-button {
+  background-color: rgb(81, 202, 65);
+  color: white;
+}
+
+.green-button:hover {
+  background-color: #68a04c;
+}
+
+/* */
